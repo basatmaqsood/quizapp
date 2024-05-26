@@ -102,10 +102,10 @@
     background: blue;
 }
 .answer.correct{
-    animation: correct 3s ease forwards;
+    animation: correct 2s ease forwards;
 }
 .answer.incorrect{
-   animation: incorrect 3s ease forwards;
+   animation: incorrect 2s ease forwards;
 }
 
 @keyframes correct {
@@ -129,4 +129,18 @@ background: mediumblue;
     100%{
         background: red;
     }
+}
+
+.endText{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000;
+    padding: 20px;
 }
